@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon\png" href="../img/logo (1).png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>JFN - HUI | Course</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="../index.html" class="sds"><img src="../img/logo_hui.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+<!-- ----------------------contact us content--------------------- -->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.72062660278!2d9.7381847!3d4.0772167999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610d416360c363%3A0x2dcf2e98eb70839f!2sJFN%20HIGHTECH%20UNIVERSITY%20INSTITUTE!5e0!3m2!1sfr!2scm!4v1701217596667!5m2!1sfr!2scm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <li class="fa fa-home"></li>
+                <span>
+                    <h5>Bonamoussadi Santa Babarra</h5>
+                    <p>Campus universitaire JFN BP: 3712 Douala-Cameroon</p>
+                </span>
+            </div>
+            <div>
+                <li class="fa fa-phone"></li>
+                <span>
+                    <h5>+237 680 06 60 15 /  694 00 56 70</h5>
+                    <p>Lundi a Dimanche 8H ~ 18H</p>
+                </span>
+            </div>
+
+            <div>
+                <li class="fa fa-envelope-o"></li>
+                <span>
+                    <h5>Info@jfn-univ.com</h5>
+                    <p>Notre E-mail</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="../config/form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Entrer votre nom" required>
+                <input type="email" name="email" placeholder="Entrer votre adresse mail" required>
+                <input type="text" name="subject" placeholder="Entrer votre sujet" required>
+                <textarea rows="8" name="message" placeholder="Votre message..."></textarea>
+                <button type="submit"  class="hero-btn red-btn"> Envoyer Message</button>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+   
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ratione laborum
+             repudiandae dolor esse asperiores sed  voluptatem modi voluptates quas.<br>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, debitis?</p>
+
+             <div class="icons">
+                <li class="fa fa-facebook"></li>
+                <li class="fa fa-twitter"></li>
+                <li class="fa fa-whatsapp"></li>
+                <li class="fa fa-instagram"></li>
+                <li class="fa fa-linkein"></li>
+             </div>
+             <p>Copyright @ 2023 by Foko Junior</p>
+
+    </section>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
